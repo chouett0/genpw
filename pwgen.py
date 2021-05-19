@@ -1,3 +1,4 @@
+#!/usr/bin/python
 import string
 import secrets
 from argparse import ArgumentParser
