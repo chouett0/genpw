@@ -17,7 +17,7 @@ def pass_gen(args):
 
 def main():
    parser = ArgumentParser()
-   parser.add_argument('-l', '--length', type=int, default=8, help='Password Length')
+   parser.add_argument('-l', '--length', type=int, default=24, help='Password Length')
 #   parser.add_argument('-c', '--char', type=bool, default=True, help='Include Charactors')
    parser.add_argument('-n', '--number', action='store_true', help='Include Numbers')
    parser.add_argument('-s', '--special', action='store_true', help='Include Special Words')
