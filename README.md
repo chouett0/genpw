@@ -1,6 +1,18 @@
 # pwgen
+## What's it
 password generator
 
+<br />
+
+## Require
+- python3 > 3.7.4
+- string
+- secrets
+- argparse
+
+<br />
+
+## Usage
 ```
 password: usage: pwgen.py [-h] [-l LENGTH] [-n] [-s]
 
